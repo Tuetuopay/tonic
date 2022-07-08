@@ -17,6 +17,7 @@ version = "0.6.0"
 [features]
 default = ["transport"]
 transport = ["tonic/transport", "tonic-build/transport"]
+compression = ["tonic/compression", "tonic-build/compression"]
 
 [dependencies]
 async-stream = "0.3"
